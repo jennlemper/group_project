@@ -5,7 +5,8 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
-#infomenu {
+
+#menu {
   color: white;
   font-family: "Times New Roman", Times, serif;
 font-size: 18px;
@@ -44,21 +45,8 @@ font-size: 18px;
   color: black;
 }
 
-#demotext {
+demotext {
 text-shadow: 4px 3px 0 #7A7A7A, 2px 2px 5px rgba(206,89,55,0.26);
 color: black;
 background: #b8b8b8;
 }
-
-/* Show the dropdown menu when the user moves the mouse over the dropdown button */
-.dropdown:hover .dropdown-content {
-  display: block;
-
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-  
