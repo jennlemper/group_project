@@ -1,0 +1,17 @@
+#headline {
+color: lightpink;
+font-style: italic;
+}
+
+img {
+  border-radius:130px;
+  size: 50%
+}
+
+div.accordion {
+  margin: 20%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  justify-content: center;
+}

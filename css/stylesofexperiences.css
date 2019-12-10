@@ -1,3 +1,29 @@
-#EXPERIENCES {
-color: lightpink;
+
+
+.content{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+div.text, img{
+  margin: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+div.text p{
+  margin: 10px;
+}
+
+.content h1, h1.content{
+  color: lightpink;
+  font-size: 2.75em;
+}
+
+div.heading{
+  font-size: 1.5em;
 }
