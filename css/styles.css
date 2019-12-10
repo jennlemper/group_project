@@ -5,7 +5,6 @@ img{
   padding: 20px;
   border-radius: 130px;
 }
-
 body {
   padding-top: 5rem;
 }
@@ -57,4 +56,11 @@ demotext {
 text-shadow: 4px 3px 0 #7A7A7A, 2px 2px 5px rgba(206,89,55,0.26);
 color: black;
 background: #b8b8b8;
+
+div.text1, img{
+  margin: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  justify-content: center;
 }
