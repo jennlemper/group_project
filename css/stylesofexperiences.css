@@ -1,12 +1,11 @@
 
-
 .content{
   margin: auto;
   text-align: center;
   width: 100%;
 }
 
-div.text, img{
+div.text img{
   margin: 20%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -29,5 +28,118 @@ div.heading{
 }
 
 div.pictures{
-  image-orientation: 50%
+  display: inline-block;
+  margin: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+div.pictures img{
+  width: 400px;
+  transition: 0.2s;
+}
+
+div.pictures img:hover{
+  transform: scale(2.5);
+}
+
+a.Nottingham img {
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+margin: 94px 20px 20px 20px;
+}
+
+.Nottingham-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+.Nottingham-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+transform: scale(2);
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.Nottingham-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+a.Nottingham-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+a.Nottingham-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+.Nottingham-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.Nottingham-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.Nottingham-target:target a.Nottingham-close {
+top: 0px;
 }
