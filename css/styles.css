@@ -1,6 +1,60 @@
+
 img{
   display: flex;
   margin: 0 auto;
   padding: 20px;
   border-radius: 130px;
+}
+
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#menu {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+}
+
+
+ #About {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+}
+
+#Experiences {
+ color: white;
+ font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+}
+
+#Tipsandtricks {
+ color: white;
+ font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+}
+
+#Somethingelse {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+font-size: 18px;
+}
+
+#navtoolbar {
+  color: black;
+}
+
+#button {
+  color: black;
+}
+
+demotext {
+text-shadow: 4px 3px 0 #7A7A7A, 2px 2px 5px rgba(206,89,55,0.26);
+color: black;
+background: #b8b8b8;
 }
