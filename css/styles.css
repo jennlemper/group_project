@@ -4,3 +4,11 @@ img{
   padding: 20px;
   border-radius: 130px;
 }
+
+div.text1, img{
+  margin: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  justify-content: center;
+}
